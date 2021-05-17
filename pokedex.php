@@ -12,3 +12,11 @@ $pokemon_move1 = $pokemon_moves[0]['move']['name'];
 $pokemon_move2 = $pokemon_moves[1]['move']['name'];
 $pokemon_move3 = $pokemon_moves[2]['move']['name'];
 $pokemon_move4 = $pokemon_moves[3]['move']['name']; 
+
+//Displaying the variables
+<?php echo $pokemon_name ?>
+<?php echo $pokemon_id ?>
+<?php echo $pokemon_move1 ?>
+<?php echo $pokemon_move2 ?>
+<?php echo $pokemon_move3 ?>
+<?php echo $pokemon_move4 ?>
