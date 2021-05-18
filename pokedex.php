@@ -1,15 +1,4 @@
 <?php
-$pokeUserInputID = 1;
-$pokeUserInputName = 1;
-
-if (isset($_GET["id"])) {
-    $pokeUserInputID = $_GET["id"];
-}
-
-if (isset($_GET["name"])){
-    $pokeUserInputName = $_GET["name"];
-}
-
 
 //Fetching the API
 $pokeRawData = 'https://pokeapi.co/api/v2/pokemon/' .
