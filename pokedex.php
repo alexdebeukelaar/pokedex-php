@@ -46,14 +46,18 @@ $pokeMove4 = $pokeData['moves'][3]['move']['name'];
     <div class="container">
         <div class="row">
             <div class="column">
-                
+            <p><?php echo ($pokeName); ?></p>
+                <p><?php echo ($pokeID); ?></p> 
             </div>
 
             <div class="column">
                 <div class="image">
                
                 </div>
-                
+                <p><?php echo ($pokeMove1); ?></p>
+                <p><?php echo ($pokeMove2); ?></p>
+                <p><?php echo ($pokeMove3); ?></p>
+                <p><?php echo ($pokeMove4); ?></p>
             </div>
         </div>
         <div class="row">
