@@ -1,11 +1,13 @@
 <?php
 
 //Fetching the API
-$pokeRawData = 'https://pokeapi.co/api/v2/pokemon/' .
+$pokeRawData = 'https://pokeapi.co/api/v2/pokemon/' . $pokeUserInputID . $pokeUserInputName;
+$evoRawData = file_get_contents($pokeEvoRawData);
 /
 
 
 $data = file_get_contents($pokeRawData);
+$pokeData = json_decode($data, true);
 
 
 
